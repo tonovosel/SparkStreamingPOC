@@ -7,5 +7,5 @@ Repo content legend:
     • analysis: contains plots and analysis scripts using Python and matplotlib package
     • conf: contains json-data-generator configuration files I used to simulate SMS traffic
     • db: contains Psotgresql backup file with data
-    • dependencies: Spark and afka dependencies (.jar)
+    • dependencies: Spark and Kafka dependencies (.jar)
     • SparkStreamingPOC: contains Spark streaming app
