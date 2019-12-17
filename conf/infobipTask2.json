@@ -1,0 +1,19 @@
+{
+    "eventFrequency": 40,
+    "varyEventFrequency": true,
+    "repeatWorkflow": true,
+    "timeBetweenRepeat": 15,
+    "varyRepeatFrequency": true,
+    "steps": [{
+            "config": [{
+                    "SendDateTime": "now()",
+                    "SMSChannelId": "random(260987,261000)",
+                    "NetworkId": "random(540,5663)",
+                    "GatewayId": "random(13,15)",
+                    "SMSCount": "random(1,2,3)"
+                }
+            ],
+            "duration": 0
+        }]
+}
+

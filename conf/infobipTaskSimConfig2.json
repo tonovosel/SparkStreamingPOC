@@ -1,0 +1,14 @@
+{
+    "workflows": [{
+            "workflowName": "infobipTask",
+            "workflowFilename": "infobipTask2.json"
+        }],
+    "producers": [{
+			"type": "kafka",
+			"broker.server": "127.0.0.1",
+			"broker.port": 9092,
+			"topic": "infobip",
+			"flatten": false,
+			"sync": false
+		}]
+}
