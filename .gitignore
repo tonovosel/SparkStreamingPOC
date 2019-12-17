@@ -1,2 +1,5 @@
 /disasterrecovery
 *.metadata
+*.ipynb_checkpoints
+*/.metadata
+/.ipynb_checkpoints
